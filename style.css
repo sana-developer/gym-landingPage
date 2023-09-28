@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lacquer&family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    font-family: 'Lacquer', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+header {
+    font-size: 22px;
+}
+
+main {
+    min-height: 100vh;
+}
+
+nav div {
+    font-weight: bolder;
+    color: #e24937;
+    font-size: 1.6rem;
+}
+
+.btn {
+    padding: 9px 13px;
+    background: #e24937;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+.section1{
+    padding: 2rem 0;
+}
+
+.topleft {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+    margin-bottom: 24px;
+    text-align:center;
+}
+.topleft img{
+    filter: invert();
+    width: inherit;
+}
+
+.topleft h1 {
+    margin: 12px 0;
+}
+
+.topright {
+    align-items: center;
+    width: 50%;
+    /*height: 50vh;*/
+    justify-content: center;
+    justify-items: center;
+}
+
+.topright img {
+
+    width: 230px;
+}
+.section2{
+    margin:15vh 0;
+}
+.section2 h1{
+    text-align: center;
+margin: 25px 0;
+font-size: 2rem;
+}
+.heading{
+    margin:auto;
+text-align: center;max-width: 700px;
+}
+.boxes{
+    display: flex;
+justify-content: center;
+margin: 2rem auto;
+}
+.box{
+    margin: 0 1rem;
+    border:2px solid rgb(131, 78, 35);
+    width: 33vw;
+    text-align: center;
+    border-radius: 9px;
+    padding: 0.9rem 0.1rem;
+}
+.box ul{
+    list-style: none;
+}
+.price{
+    padding: 1rem;
+font-size: 30px;
+}
+.btn{
+    padding-top:11px;
+}
+.table{
+    width: 73vw;
+padding: 2rem 0;
+border-collapse: collapse;
+margin-bottom: 6rem;
+}
+.container h2{
+    text-align: center;
+    padding:2rem;
+}
+.table th,
+.table td{
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+}
+footer{
+    text-align: center;
+    padding: 23px;
+}
+.deal{
+    color: #e24532;
+padding: 15px;
+}
